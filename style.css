@@ -1,0 +1,62 @@
+/* Reset some defaults */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .score {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .score span {
+    font-weight: bold;
+    color: #2980b9;
+  }
+  
+  .score p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  #result {
+    font-size: 1.4rem;
+    margin: 30px 0;
+    font-weight: bold;
+    color: #27ae60;
+  }
+  
+  .choices {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .choices p {
+    font-size: 4rem;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .choices p:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
